@@ -16,7 +16,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias
 - Primeiro é preciso criar uma conta para o sistema do Pipedrive e também para o sistema do Bling
 - Depois é preciso gerar as API Token em ambos sistemas 
   - Guia para gerar no [Pipedrive](https://support.pipedrive.com/pt/article/how-can-i-find-my-personal-api-key)
-  - Guia para gerar no [Bling](https://ajuda.bling.com.br/hc/pt-br/articles/360035558634-Usu%C3%A1rio-e-Usu%C3%A1rio-API
+  - Guia para gerar no [Bling](https://ajuda.bling.com.br/hc/pt-br/articles/360035558634-Usu%C3%A1rio-e-Usu%C3%A1rio-API)
  - Logo após é preciso gerar um novo negócio no Pipedrive e alterar seu status para [ganho](https://support.pipedrive.com/pt/article/deals-what-they-are-and-how-to-add-them)
  - Agora basta executar o método POST para: http://localhost:3000/integrateDeals (não é necessário parâmetros, essa execução irá integrar as últimas negociações sem repetir ID)
 
